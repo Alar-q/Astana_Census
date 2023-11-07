@@ -49,14 +49,14 @@ or [Documentation](path-to-your-documentation) sections of the repository.
 ## Screenshots
 Here are some screenshots of the DataVizSurvey application in action:
 
-![Screenshot 1](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_1_2023-11-07_09-58-46.jpg)
-![Screenshot 2](path-to-screenshot-2)
-![Screenshot 3](path-to-screenshot-3)
-![Screenshot 4](path-to-screenshot-3)
-![Screenshot 5](path-to-screenshot-3)
-![Screenshot 6](path-to-screenshot-3)
-![Screenshot 7](path-to-screenshot-3)
-![Screenshot 8](path-to-screenshot-3)
+![Screenshot 1](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_1.jpg)
+![Screenshot 2](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_2.jpg)
+![Screenshot 3](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_3.jpg)
+![Screenshot 4](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_4.jpg)
+![Screenshot 5](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_5.jpg)
+![Screenshot 6](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_6.jpg)
+![Screenshot 7](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_7.jpg)
+![Screenshot 8](https://github.com/Alar-q/Astana_Census/blob/main/images/photo_8.jpg)
 
 ## References
 - Meredith, J. R., Shafer, S. M., & Mantel Jr, S. J. (2017). Project management: a strategic managerial approach. John Wiley & Sons.
