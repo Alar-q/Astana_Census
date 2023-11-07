@@ -1,0 +1,31 @@
+import React, {useState} from 'react';
+import {useLocation, useNavigate} from "react-router-dom";
+
+import BottomNavigationAction from '../../shared/ui/bottom_navigation_action/BottomNavigationAction'
+import Navigation from '../../shared/ui/navigation/Navigation'
+
+import NewIcon from '../../assets/icons/Property 1=new.svg'
+import MainIcon from '../../assets/icons/home_FILL0_wght400_GRAD0_opsz48.svg'
+import OrdersIcon from '../../assets/icons/Property 1=orders.svg'
+import ChatIcon from '../../assets/icons/Property 1=chat.svg'
+import ProfileIcon from '../../assets/icons/category.svg'
+import {useAppContext} from "../../context/AppContext";
+
+export default function NavigationPanel({ }){
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+
+    const {chatHandler} = useAppContext();
+    const {notifications} = chatHandler;
+
+    // подумать над неймингом роутов
+    return (
+        <Navigation>
+            <BottomNavigationAction label='Главная' icon={<MainIcon/>} active={pathname.startsWith('/survey')} onClick={e => navigate('/survey', {replace: true,})}  />
+            <BottomNavigationAction label='Статистика' icon={<OrdersIcon/>} active={pathname.startsWith('/stats')} onClick={e => navigate('/stats', {replace: true,})}  />
+            <BottomNavigationAction number_of_notifications={notifications.length} label='Чат' icon={<ChatIcon/>} active={pathname.startsWith('/chat')} onClick={e => navigate('/chat', {replace: true,})}  />
+            <BottomNavigationAction label='Сервисы' icon={<ProfileIcon/>} active={pathname.startsWith('/profile')} onClick={e => navigate('/profile', {replace: true,})}  />
+        </Navigation>
+    );
+}
+

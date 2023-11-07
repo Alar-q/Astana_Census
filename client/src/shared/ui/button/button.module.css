@@ -1,0 +1,77 @@
+.btn {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn svg {
+    margin-right: 10px;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+.btn:hover {
+    opacity: 95%;
+}
+.btn--main {
+    background-color: #1E262F;
+    color: white;
+}
+.btn--main svg path {
+    stroke: #cbcbcb;
+}
+.btn--second {
+    background-color: #2086E5;
+    color: white;
+}
+.btn--control {
+    background-color: #1E262F;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+}
+.btn--landing {
+    background-color: #ffffff;
+    color: #1c1c1c;
+    font-weight: 600;
+}
+.btn--small {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+.btn--outline {
+    background: none;
+    border: 1px solid #1E262F;
+    color: #1E262F;
+}
+.btn--cancel {
+    background: #EBEDF0;
+    color: #1c1c1c;
+}
+.btn--outline-inverse {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+.btn--outline svg path {
+    fill: #1E262F;
+}
+.btn--big {
+    /*font-weight: 800;*/
+}
+/*.btn--small {*/
+/*    padding: 8px;*/
+/*}*/
+.btn--badge {
+    position: relative;
+}

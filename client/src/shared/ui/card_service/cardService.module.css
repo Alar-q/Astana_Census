@@ -1,0 +1,24 @@
+.card-service {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    color: #1E262F;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.card-service:last-child {
+    margin-bottom: 0;
+}
+.card-service__header, .card-service__footer {
+    padding: 8px 12px;
+
+}
+.card-service__header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-service--grid {
+    margin: 0;
+ }

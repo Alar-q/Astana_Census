@@ -1,0 +1,38 @@
+.box {
+    height: 100%;
+    padding: 0 20px;
+    /*padding-bottom: 155px;*/
+    /*padding-bottom: 210px;*/
+    flex-grow: 1;
+    /*overflow: auto;*/
+}
+.box--navbar {
+    padding-top: 60px;
+}
+.box--menu {
+    padding-bottom: 80px;
+}
+.box--yummy{
+    padding-bottom: 150px;
+}
+
+.box--center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*.container {*/
+/*    padding: 10px 20px;*/
+/*}*/
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+.container--header {
+
+}

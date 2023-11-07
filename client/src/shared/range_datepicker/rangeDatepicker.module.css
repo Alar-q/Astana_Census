@@ -1,0 +1,62 @@
+.datepicker-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/*.GroupInputDate .input-wrapper:first-child input {*/
+/*    border-radius: 16px 0 0 16px;*/
+/*}*/
+/*.GroupInputDate .input-wrapper:last-child input {*/
+/*    border-radius: 0 16px 16px 0;*/
+/*}*/
+
+/*.GroupInputDate .react-range_datepicker-wrapper input {*/
+/*    border-radius: 16px;*/
+/*    padding: 12px 15px;*/
+/*}*/
+.range_datepicker-input {
+    width: 100%;
+    padding: 14px 20px;
+    border: 1px solid rgba(30, 38, 47, 0.06);
+    box-shadow: 2px 4px 4px rgba(30, 38, 47, 0.02);
+    font-size: 14px;
+    outline-color: #1E262F;
+}
+.range_datepicker-input__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* когда range datepicker пикает сразу по два: старт и енд */
+/*.range_datepicker-input:first-child {*/
+/*    border-radius: 16px 0 0 16px;*/
+/*}*/
+/*.range_datepicker-input:last-child {*/
+/*    border-radius: 0 16px 16px 0;*/
+/*}*/
+
+/* когда range datepicker пикает по одному */
+.range_datepicker-input-wrapper {
+    width: 100%;
+}
+.range_datepicker-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* меням стили чтобы border radius был для 1st 2nd разный */
+.range_datepicker-input-wrapper--first input {
+    width: 100%;
+    border-radius: 16px 0 0 16px;
+}
+.range_datepicker-input-wrapper--last input {
+    width: 100%;
+    border-radius: 0 16px 16px 0;
+}
+
+
+
+
+
