@@ -6,7 +6,7 @@ const { User } = require('../models/models-manager');
 const userDto = require('../dtos/user-dto');
 
 module.exports = () => {
-    passport.use(require('./azure-strategy')())
+    // passport.use(require('./azure-strategy')())
     passport.use(require('./local-strategy')())
 
     // Нужно добавить обработку ошибок. Здесь кажется не может быть ошибок.

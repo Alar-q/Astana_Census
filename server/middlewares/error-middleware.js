@@ -26,7 +26,9 @@ module.exports = function (err, req, res, next){
     else {
         logger.error(colors.red('Unexpected Error'), err);
         res.status(500).json({
-            message: 'Unhandled unexpected error'
+            unexpected: 'Unhandled unexpected error',
+            message: err.message,
+            errors: err.errors
         });
     }
 }

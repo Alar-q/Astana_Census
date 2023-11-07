@@ -12,7 +12,7 @@ const OPTS = {
     withCredentials: true
 }
 
-const socket = io(URL, OPTS);
+const socket = io('/', OPTS);
 
 export default function useSocket(){
     const [isConnected, setIsConnected] = useState(socket.connected);
